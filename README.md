@@ -1,37 +1,47 @@
-# Network Research Project
+# Penetration Testing Project
 ### Short Purpose Of The Project
-This script automates secure installations, verifies network anonymity, and conducts scans on various domains and IP addresses. It ensures privacy by remotely connecting to external servers and sending commands to perform the scans for you.
+This project involves creating a script for comprehensive network device mapping, 
+identifying ports, services, and vulnerabilities. The user defines the network range, after 
+which the program deploys tools like nmap and masscan for scanning and mapping 
+purposes, storing the data in a newly created directory. The script also probes for network 
+vulnerabilities, employing nmap, searchsploit, hydra, and medusa to identify security gaps, 
+such as weak passwords. Finally, the scan summary and findings are presented to the user.
 
 > **Please Take a Look At The PDF Document And Watch The Video Above To Gain a Deeper Understanding Of The Project** 
 
-## What the project does and what the purpose of it ? 
-What the project does and what the purpose of it ?
-In the internet world, like everything in the world there is a good side but there are also
-things that are not always good and allowed to be done and might be illegal to do.
-In such cases the experienced people who do these kind of things, will always try to hide
-themselves and be anonymous as possible so they can't be tracked down.
+## Why Do We Need This Kind of Project ? 
+- [ ] **Risk Mitigation After Breaches:**
+      
+In the aftermath of security breaches and data leaks, understanding the vulnerabilities in a 
+company's network infrastructure becomes crucial. This project provides a systematic 
+approach to identifying potential security gaps, aiding cyber analysts in understanding the 
+breach and devising strategies to mitigate future risks.
 
-- [ ] An example of one of the things that is illegal to do is **“unauthorized scanning”** .
+- [ ] **Efficiency in Analysis:**
+      
+Manual execution of network scans and vulnerability assessments can be labor-intensive 
+and time-consuming, especially in large-scale environments. Automating these processes 
+allows for quicker detection of vulnerabilities and enables cyber analysts to focus their 
+efforts on analyzing results and implementing remediation measures promptly.
 
-### So what does that mean?
-Unauthorized scanning involves probing or examining computer networks or domains
-without proper permission or authorization, often for assessing vulnerabilities or identifying
-open ports without the explicit consent of the network owner.
+- [ ] **Scalability for Complex Networks:**
+      
+As network infrastructures grow in complexity and scale, manual scanning becomes 
+impractical. Automation provides a scalable solution that can adapt to varying network 
+configurations, allowing for comprehensive assessment of even the largest and most 
+intricate networks.
 
-There are several ways to perform these kinds of scans, and additional details and more information about them will be found in the PDF doc.
+### Project Structure :
+The script is structured as a framework designed to accommodate various network 
+analysis needs. Its modular design incorporates multiple menus, each menu 
+responsible for specific tasks, empowering analysts to customize their scans 
+according to their requirements. Analysts can choose from a range of tools, 
+including Nmap, Masscan, searchsploit, hydra, and medusa, based on their specific 
+analysis requirements.    
 
-### So what will the script perform?
-* The script will focus on unauthorized scanning of a chosen Domains or IP addresses.
-Before any scan being executed, the script was built to make sure that your internet
-connection is completely unassociated with your location and you are totally anonymous
-before moving on to perform the scans.
-
-* The second part of the script will connect remotely to another server that will perform these
-scans for you in order to hide yourself more and make it even more difficult to tracked you,
-if they will try to catch whoever did these scan, the server you connected to will be tracked.
-
-* The last part of the script will save all the data, details and information that the server scan in
-files and will transfer them into your computer safely without you being exposed.
+This flexibility enables them to leverage the most 
+appropriate tools for each scanning task, maximizing the effectiveness of their 
+analysis efforts.
 
 ---
 

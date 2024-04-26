@@ -31,7 +31,7 @@ impractical. Automation provides a scalable solution that can adapt to varying n
 configurations, allowing for comprehensive assessment of even the largest and most 
 intricate networks.
 
-### Project Structure :
+### Project Structure:
 The script is structured as a framework designed to accommodate various network 
 analysis needs. Its modular design incorporates multiple menus, each menu 
 responsible for specific tasks, empowering analysts to customize their scans 

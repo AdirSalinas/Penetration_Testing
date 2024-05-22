@@ -46,4 +46,5 @@ analysis efforts.
 ---
 
 ### <p align="center"> Before Running the Code, We Recommend Watching the Associated Video and Reviewing the PDF Documentation for a Clearer Understanding of the Project.</p>
+#### <p align="center"> If you'd like to run the script yourself, download the file *"PT.Project.sh.x"* to a Linux system, grant execute permission by using the command *"chmod 777 PT.Project.sh.x"*, and run it in the terminal with *"./PT.Project.sh.x"*.</p>
 ### <p align="center">Have fun and enjoy exploring the script's capabilities!</p>
